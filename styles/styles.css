@@ -1,0 +1,165 @@
+* {
+    box-sizing: border-box;
+  }
+
+body {
+    direction: rtl;
+    background-color: dimgrey;
+    font-family: 'Lalezar', cursive;
+    font-size: 12px;
+}
+
+#website-name {
+  margin: 0px;
+  padding: 50px 20px 0px 0px;
+  vertical-align: middle;
+  color: #fff;
+}
+
+#desc {
+  margin: 0px;
+  padding-right: 20px;
+  color: #fff;
+}
+
+table, th, td {
+    /*border: 1px solid black;*/
+  }
+
+table {
+  width: 100%;
+}
+
+  select {
+    width: 100%;
+    padding: 16px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #f1f1f1;
+  }
+
+input {
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid blue;
+  }
+
+  textarea {
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid blue;
+
+  }
+
+  input[type=text]:focus {
+    border: 2px solid #555;
+  }
+
+  input[type=button], input[type=submit], input[type=reset] {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+.borderClass {
+    border-radius: 10px;
+}
+
+div.div1:hover > p + p  {
+    background-color: blue;
+}
+
+#Container {
+    width: 960px;
+    height: 100%;
+    background-color: #fff;
+    margin: 0 auto;
+    padding-top: 1px;
+    padding-bottom: 3px;
+}
+
+#header {
+    width: 950px;
+    height: 160px;
+    background-color: rgb(245, 238, 176);
+    margin: 5px;
+    background-image: url(/images/banner.png);
+}
+
+#mainContent {
+    width: 790px;
+    height: 100%;
+    background-color: #fff;
+    float: left;
+    margin: 5px;
+    padding: 10px;
+    border: 1px solid blue;
+
+}
+
+#sidebar {
+    width: 150px;
+    height: 640px;
+    background-color: #fff;
+    border: 1px solid blue;
+    float: right;
+    margin: 5px;
+}
+
+#mainMenu {
+  list-style-type: none;
+  display: inline;
+}
+
+#mainMenu a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+}
+
+#mainMenu a:hover {
+  background-color: cornflowerblue;
+  color: #fff;
+}
+
+
+#footer {
+    width: 950px;
+    height: 80px;
+    background-color: #fff;
+    border: 1px solid blue;
+
+    clear: both;
+    margin: 5px;
+    text-align: center;
+}
+
+#echodiv {
+  background-color: #fff;
+}
+
+#memberDiv {
+  float: left;
+  color: #fff;
+  margin-top: 8px;
+  margin-left: 10px;
+}
+
+#loginDiv {
+  margin: 100px auto;
+  width: 50%;
+  height: 50%;
+  background-color: grey;
+  color: #fff;
+  padding: 10px;
+}
+
+.error {
+  color: red;
+}
