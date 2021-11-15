@@ -18,7 +18,7 @@
         <div id="mainContent" class="borderClass">
             <h1>درباره آفرین وب</h1>
             <h2>با گروه آموزشی آفرین وب بیشتر آشنا شوید.</h2>
-
+            <h3>Git Added</h3>
 
         </div>
         <div id="sidebar" class="borderClass">
